@@ -1,0 +1,9 @@
+{
+  "name": "levenshtein",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "damerau-levenshtein-js": "^1.1.5"
+  }
+}
