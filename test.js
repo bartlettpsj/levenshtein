@@ -1,13 +1,5 @@
 const dl = require("damerau-levenshtein-js");
 
-function sum(a, b) {
-  return a + b;
-}
-
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
-});
-
 test('returns no distance on identical', () => {
   expect( dl.distance('aaa', 'aaa')).toBe(0);
 })
