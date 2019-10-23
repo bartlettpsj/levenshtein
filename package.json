@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "damerau-levenshtein-js": "^1.1.5"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
   }
 }
